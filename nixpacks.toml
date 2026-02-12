@@ -1,0 +1,6 @@
+[phases.setup]
+nixPkgs = ["php81", "php81Extensions.mysqli", "php81Extensions.pdo_mysql", "unzip"]
+
+[start]
+cmd = "bash start.sh"
+ 
